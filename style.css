@@ -984,27 +984,9 @@ th {
     height: 120px;
 }
 
-.container-contact .contactForm .formBox .inputBox span {
-    position: absolute;
-    left: 0;
-    padding: 5px 0;
-    pointer-events: none;
-    font-size: 18px;
-    font-weight: 300;
-    transition: 0.3s;
-}
 
-.container-contact .contactForm .formBox .inputBox input:focus~span,
-.container-contact .contactForm .formBox .inputBox input:valid~span,
-.container-contact .contactForm .formBox .inputBox textarea:focus~span,
-.container-contact .contactForm .formBox .inputBox textarea:valid~span {
-    transform: translateY(-20px);
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #095a55;
-    font-weight: 500;
-}
+
+
 
 /* Css for the submit button */
 .container-contact .contactForm .formBox .inputBox input[type="submit"] {
