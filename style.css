@@ -50,7 +50,7 @@ body {
     }
 }
 
-.nav a{
+.nav a {
     z-index: 2;
 }
 
@@ -383,6 +383,22 @@ body {
 /*================================================
                 CSS FOR Prouct PAGE Start
 ===================================================*/
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.left a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
+.round {
+    border-radius: 50%;
+}
 
 
 .product-div {
@@ -1013,7 +1029,7 @@ footer {
     width: 35%;
 }
 
-.footer-distributed .footer-center img{
+.footer-distributed .footer-center img {
     /* background-color: #33383b;
     color: #ffffff; */
     width: 20px;
@@ -1024,7 +1040,8 @@ footer {
     margin: 10px;
     vertical-align: middle;
 }
-.footer-distributed .footer-center img{
+
+.footer-distributed .footer-center img {
     filter: invert(1);
 }
 
@@ -1034,7 +1051,7 @@ footer {
     color: #ffffff;
     vertical-align: middle;
     margin: 0;
-    
+
 }
 
 .footer-distributed .footer-center p span {
@@ -1048,7 +1065,7 @@ footer {
     color: #3F71EA;
     text-decoration: none;
     ;
-    
+
 }
 
 /* Footer Right */
@@ -1101,7 +1118,7 @@ footer {
 
 .footer-distributed .footer-icons a:hover {
     background-color: #3F71EA;
-    
+
 }
 
 .footer-links a:hover {
@@ -1128,4 +1145,3 @@ footer {
 /*================================================
                 CSS FOR Footer End 
 ===================================================*/
-
