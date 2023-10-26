@@ -261,7 +261,7 @@ body {
 .shop-btn {
     background-color: transparent;
     text-decoration: none;
-    width: 100px;
+    width: 160px;
 
     height: 46px;
     color: #fff;
@@ -329,7 +329,10 @@ body {
 
 @media(max-width:1024px) {
     .box-container {
-        padding: 0px 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
 }
 
@@ -403,6 +406,7 @@ body {
 }
 
 .product-container {
+    margin-top: 20px;
     display: flex;
 }
 
@@ -772,12 +776,12 @@ footer {
 }
 
 .footer-distributed .footer-icons {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .footer-distributed .footer-icons a {
     display: inline-block;
-    width: 35px;
+    width: 40px;
     height: 35px;
     cursor: pointer;
     background-color: #33383b;
@@ -789,6 +793,11 @@ footer {
     margin-right: 3px;
     margin-bottom: 5px;
 }
+.footer-distributed .footer-icons a img{
+    width: 30px;
+    margin-top: 3px;
+}
+
 
 .footer-distributed .footer-icons a:hover {
     background-color: #3F71EA;
