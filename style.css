@@ -166,24 +166,20 @@ body {
                 CSS FOR Navigation bar End
 ===================================================*/
 /*================================================
-                CSS FOR Hero .section Start
+                CSS FOR Home Page Start
 ===================================================*/
 
 .container {
-    padding: 0 60px;
+    padding: 0 24px;
 }
 
-@media(max-width:768px) {
-    .container {
-        padding: 0 40px;
-    }
-}
-
-@media(max-width:482px) {
+@media(max-width:871px) {
     .container {
         padding: 0 20px;
     }
 }
+
+
 
 .contact-btn {
     font-weight: 500;
@@ -265,8 +261,7 @@ body {
 .shop-btn {
     background-color: transparent;
     text-decoration: none;
-    width: 160px;
-
+    width: 180px;
     height: 46px;
     color: #fff;
     display: flex;
@@ -281,6 +276,7 @@ body {
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
+
 
 .shop-btn:hover {
     background-color: #0079D4;
@@ -304,18 +300,197 @@ body {
     }
 
     .shop-btn {
-        width: 90px;
-
-        height: 36px;
+        width: 150px;
+        height: 50px;
+        font-size: 13px;
+        
     }
 }
+@media(max-width:460px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero-left h4 {
+        font-size: 15px;
+    }
+
+    .hero h6 {
+        font-size: 10px;
+    }
+
+    .hero-left {
+        gap: 20px;
+    }
+
+    .shop-btn {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+
 
 .main {
     background-color: #1D1D1D;
 }
 
+.brown-bg {
+    background-color: #1d1d1d;
+}
+
+.video-section {
+    display: flex;
+    padding: 182px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video-section h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+
+.video-section p {
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.video-left {
+    padding: 0 30px;
+    width: 37.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media(max-width:1024px){
+    .video-left{
+        padding: 0;
+    }
+    
+}
+
+
+.video-right {
+    width: 56.39%
+}
+
+.social-icon-vid h2 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.social-icon-vid a img{
+    width: 21px;
+}
+.social-icon-vid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.social-icon-vid a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border: 1px solid hsla(0, 0%, 100%, .5);
+    border-radius: 8px;
+    height: 46px;
+    padding: 0 18px;
+    transition: border .2s ease-in-out;
+}
+
+.video-right video {
+    width: 100%;
+    /* Set the video width to 100% of its parent container */
+    height: auto;
+    /* Maintain the aspect ratio of the video */
+    border-radius: 30px;
+}
+@media(max-width:952px){
+    .video-left{
+        width: 100%;
+    }
+    .video-right{
+        width: 100%;
+    }
+    .video-section {
+        flex-direction: column;
+        gap: 40px;
+        padding: 120px 0 ;
+    }
+}
+
+
+.image-section {
+    display: flex;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-section h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+
+.image-section p {
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.image-left {
+    padding: 0 30px;
+    width: 37.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media(max-width:1024px){
+    .image-left{
+        padding: 0;
+    }
+    
+}
+
+.image-right {
+    width: 56.39%
+}
+
+.image-right img {
+    width: 100%;
+    /* Set the video width to 100% of its parent container */
+    height: auto;
+    /* Maintain the aspect ratio of the video */
+    border-radius: 30px;
+}
+@media(max-width:952px){
+    .image-left{
+        width: 100%;
+    }
+    .image-right{
+        width: 100%;
+    }
+    .image-section {
+        flex-direction: column;
+        gap: 40px;
+        
+    }
+}
 /*================================================
-                CSS FOR Hero .section Start
+                CSS FOR Home Page End
 ===================================================*/
 
 
@@ -328,7 +503,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(298px, 1fr));
     gap: 7px;
-    padding: 20px 24px 90px 24px;
+    padding: 20px 24px 150px 24px;
 }
 
 @media(max-width:1024px) {
@@ -384,8 +559,8 @@ body {
                 CSS FOR Prouct PAGE Start
 ===================================================*/
 .previous {
-    background-color: #f1f1f1;
-    color: black;
+    background-color: #000;
+    color: #fff;
 }
 
 .left a {
@@ -394,7 +569,7 @@ body {
     padding: 8px 16px;
     margin-bottom: 15px;
     margin-left: 15px;
-  }
+}
 
 .round {
     border-radius: 50%;
