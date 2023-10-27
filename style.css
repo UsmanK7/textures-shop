@@ -16,6 +16,29 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+@media(max-width:425px) {
+    .back-to-top {
+        width: 40px;
+    }
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 /*================================================
                 BoilerPlate CSS End
 ===================================================*/
@@ -179,6 +202,28 @@ body {
     }
 }
 
+.youtube-container {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:768px) {
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
 
 
 .contact-btn {
@@ -303,9 +348,10 @@ body {
         width: 150px;
         height: 50px;
         font-size: 13px;
-        
+
     }
 }
+
 @media(max-width:460px) {
     .hero h1 {
         font-size: 30px;
@@ -369,11 +415,12 @@ body {
     flex-direction: column;
     gap: 20px;
 }
-@media(max-width:1024px){
-    .video-left{
+
+@media(max-width:1024px) {
+    .video-left {
         padding: 0;
     }
-    
+
 }
 
 
@@ -387,14 +434,17 @@ body {
     font-weight: 600;
     white-space: nowrap;
 }
-.social-icon-vid a img{
+
+.social-icon-vid a img {
     width: 21px;
 }
-.social-icon-vid{
+
+.social-icon-vid {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
 }
+
 .social-icon-vid a {
     display: flex;
     gap: 5px;
@@ -413,17 +463,20 @@ body {
     /* Maintain the aspect ratio of the video */
     border-radius: 30px;
 }
-@media(max-width:952px){
-    .video-left{
+
+@media(max-width:952px) {
+    .video-left {
         width: 100%;
     }
-    .video-right{
+
+    .video-right {
         width: 100%;
     }
+
     .video-section {
         flex-direction: column;
         gap: 40px;
-        padding: 120px 0 ;
+        padding: 120px 0;
     }
 }
 
@@ -458,11 +511,26 @@ body {
     flex-direction: column;
     gap: 20px;
 }
-@media(max-width:1024px){
-    .image-left{
+
+.features li {
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.features li span {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+@media(max-width:1024px) {
+    .image-left {
         padding: 0;
     }
-    
+
 }
 
 .image-right {
@@ -476,19 +544,23 @@ body {
     /* Maintain the aspect ratio of the video */
     border-radius: 30px;
 }
-@media(max-width:952px){
-    .image-left{
+
+@media(max-width:952px) {
+    .image-left {
         width: 100%;
     }
-    .image-right{
+
+    .image-right {
         width: 100%;
     }
+
     .image-section {
         flex-direction: column;
         gap: 40px;
-        
+
     }
 }
+
 /*================================================
                 CSS FOR Home Page End
 ===================================================*/
